@@ -1,0 +1,9 @@
+fp-info-cache
+mcu_datalogger-backups/*
+~mcu_datalogger.kicad_sch.lck
+
+#vim temporary files
+*.un~
+*~
+*.swp
+*.swo
