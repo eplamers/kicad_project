@@ -2738,6 +2738,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 45.72) (xy 93.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fa4b8e-c160-4eb7-a2b1-ad09dba97878")
+	)
+	(wire
+		(pts
 			(xy 236.22 87.63) (xy 238.76 87.63)
 		)
 		(stroke
@@ -2838,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 48.895) (xy 106.68 48.895)
+			(xy 93.98 49.53) (xy 106.68 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2955,6 +2965,16 @@
 			(type default)
 		)
 		(uuid "511fc61d-d4a8-4d7c-aca7-e63d6eddf72f")
+	)
+	(wire
+		(pts
+			(xy 95.25 43.18) (xy 95.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53568ca2-d4d2-4a7b-b28b-522f4fb6bafe")
 	)
 	(wire
 		(pts
@@ -3138,6 +3158,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 48.26) (xy 95.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab19e21-bda1-4068-b781-ba6ab5cfda08")
+	)
+	(wire
+		(pts
 			(xy 236.22 36.83) (xy 241.3 36.83)
 		)
 		(stroke
@@ -3188,7 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 48.895) (xy 106.68 45.72)
+			(xy 106.68 49.53) (xy 106.68 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3218,13 +3248,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 43.18) (xy 95.25 47.625)
+			(xy 97.79 45.72) (xy 97.79 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3581dfc-4aa2-4e03-a64d-ebb20356e5a6")
+		(uuid "a1c8d448-b7c5-4fee-9710-b5fd19b67edc")
 	)
 	(wire
 		(pts
@@ -3235,16 +3265,6 @@
 			(type default)
 		)
 		(uuid "a49c0055-6b2f-46ed-8136-6cd4dc0348ac")
-	)
-	(wire
-		(pts
-			(xy 93.98 45.72) (xy 93.98 48.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a73c3589-0984-4695-95ad-dd64bd2873cf")
 	)
 	(wire
 		(pts
@@ -3488,16 +3508,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 47.625) (xy 97.79 47.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e92ed4ad-51e6-49a5-a198-c81e8e3b24c3")
-	)
-	(wire
-		(pts
 			(xy 86.36 38.1) (xy 91.44 38.1)
 		)
 		(stroke
@@ -3525,16 +3535,6 @@
 			(type default)
 		)
 		(uuid "fa6c59e8-cd6d-475c-ad68-d8d3cfed8ea3")
-	)
-	(wire
-		(pts
-			(xy 97.79 47.625) (xy 97.79 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fac73012-6384-4ecd-aee3-66fdabad14a8")
 	)
 	(wire
 		(pts
@@ -7018,7 +7018,7 @@
 				(justify right)
 			)
 		)
-		(pin "Rx" input
+		(pin "RX" input
 			(at 190.5 111.76 180)
 			(uuid "6c8fb508-67f2-41d8-b131-a8a870f41580")
 			(effects
@@ -7078,7 +7078,7 @@
 				(justify right)
 			)
 		)
-		(pin "Tx" output
+		(pin "TX" output
 			(at 190.5 115.57 180)
 			(uuid "32eea8d5-b7a2-4318-a776-ff445c87e58f")
 			(effects
